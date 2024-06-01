@@ -35,7 +35,7 @@ const ForgetPassword = () => {
               className="cursor-pointer rounded-[5px] text-white font-[500] h-[50px] mt-[15px] text-[17px]"
             />
           </form>
-          <p className="absolute bottom-5 text-[12px] text-[#8D93A1]">
+          <p className="bottom-5 text-[12px] text-[#8D93A1]  hidden md:absolute">
             © Copyright GDRS 2024
           </p>
         </div>
