@@ -8,10 +8,10 @@ const ForgetPassword = () => {
     navigate("/reset-password");
   };
   return (
-    <div className="sign-in flex h-full">
+    <div className="sign-in flex h-full flex-col md:flex-row">
       <AuthImage />
       <div className="flex-1 flex justify-center items-center">
-        <div className="w-[95%] sm:w-[460px]">
+        <div className="w-[90%] lg:w-[460px]">
           <p className="text-[var(--main-text-color)] text-[36px] font-[500] mb-[8px]">
             Forgot Password ?
           </p>
